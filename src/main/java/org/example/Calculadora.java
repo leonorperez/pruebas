@@ -16,9 +16,10 @@ public class Calculadora {
         public int multiplicar(int x, int y){
             return x*y;
         }
-        public int dividir(int x, int y){
-            return x/y;
-        }
+
+    public double dividir(int x, int y) {
+        return (double) x / y;
+    }
 
     public int getNumero1() {
         return numero1;
